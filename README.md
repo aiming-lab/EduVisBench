@@ -13,6 +13,12 @@ This project conducts a detailed evaluation of webpage images within EduVisBench
     export OPENAI_API_KEY="your_actual_api_key_here"
     ```
     Replace `"your_actual_api_key_here"` with your actual API key.
+3.  **Answer Image Directory Structure**: Organize your answer images as follows:
+    * Inside `data/`, create a sub-directory for each question ID found in `data.json`.
+    * Place all answer images (e.g., `.png`, `.jpg`, `.jpeg`) for a specific question directly into its corresponding ID folder.
+    * The script will automatically detect if there's a single answer image or multiple answer images based on the count of image files in this folder.
+4. **Download Dataset:**
+   * Get data from `Lekr0/Edu_Benchmark` on Hugging Face.
 
 ## Directory Structure
 
