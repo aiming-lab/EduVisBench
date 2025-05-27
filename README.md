@@ -18,7 +18,7 @@ This project conducts a detailed evaluation of webpage images within EduVisBench
     * Place all answer images (e.g., `.png`, `.jpg`, `.jpeg`) for a specific question directly into its corresponding ID folder.
     * The script will automatically detect if there's a single answer image or multiple answer images based on the count of image files in this folder.
 4. **Download Dataset:**
-   * Get data from `Lekr0/Edu_Benchmark` on Hugging Face.
+   * Get data from `Lekr0/EduVisBench` on Hugging Face.
 
 ## Directory Structure
 
